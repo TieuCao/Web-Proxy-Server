@@ -1,0 +1,101 @@
+#pnHeader {
+	-fx-background-color: #394154;
+	-fx-border-style: solid;
+	-fx-border-width: 0.0px 0.0px 1.0px 0.0px;
+	-fx-border-color: white;
+}
+
+#pnLeftSide {
+	-fx-background-color: rgb(219.0,220.0,221.0);
+}
+
+.configPaneDark{
+	-fx-content-display: top;
+	-fx-background-radius: 0.0px;
+	-fx-graphic: url("/images/settings_dark.png");	 
+	-fx-font-size: 16.0px;
+	-fx-background-color: transparent;
+	-fx-text-fill: black;
+}
+
+.configReportDark{
+	-fx-content-display: top;
+	-fx-background-radius: 0.0px;
+	-fx-graphic: url("/images/clock_dark.png");	 
+	-fx-font-size: 16.0px;
+	-fx-background-color: transparent;
+	-fx-text-fill: black;
+	-fx-border-style: solid;
+	-fx-border-width: 1.0px 0.0px;
+	-fx-border-color: #394154;
+}
+
+#btnConfigPane:hover, #btnReportPane:hover {
+	-fx-background-color: #adb0c0;
+}
+
+.configPaneBright {
+	-fx-background-color: rgb(89.0,102.0,132.0);
+	-fx-graphic: url("/images/settings_bright.png");	
+	-fx-text-fill: white;
+}
+
+.configReportBright {
+	-fx-background-color: rgb(89.0,102.0,132.0);
+	-fx-graphic: url("/images/clock_bright.png");	
+	-fx-text-fill: white;
+}
+
+.text-gray {
+	-fx-text-fill: #adb0c0;
+}
+
+.text-success {
+	-fx-text-fill: #18c369;
+}
+
+.text-danger {
+		-fx-text-fill: rgb(248.0,99.0,99.0);
+}
+
+.form-control {
+	-fx-background-radius: 0.0px;
+}
+
+.btn {
+	-fx-background-radius: 0.0px;
+	-fx-text-fill: white;
+}
+
+.btn-blue {
+	-fx-background-color: #6495ED;
+}
+
+.btn-brown {
+	-fx-background-color: #FFA07A;
+}
+
+.btn-danger {
+	-fx-background-color: rgb(248.0,99.0,99.0);
+}
+
+.btn-danger:pressed {
+	-fx-background-color: rgb(245.0,112.0,112.0);
+}
+
+
+.btn-success {
+	-fx-background-color: #18c369;
+}
+
+.btn-success:pressed {
+	-fx-background-color: rgb(25.0,211.0,113.0);
+}
+
+.btn-info {
+	-fx-background-color: rgb(43.0,150.0,220.0);
+}
+
+.btn-info:pressed {
+	-fx-background-color: rgb(46.0,156.0,227.0);
+}
